@@ -25,11 +25,11 @@ Main project output: [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhN
 
 The main goal of the project will be translated into finding the answers to these five themed questions:
 
-***Question 1: How are Airbnb listings distributed in NYC? (To provide a high-level view)**
-***Question 2: How does neighborhood (location) impact Airbnb listings in NYC? (Perform Location Analysis)**
-***Question 3: Which type of property is most preferred by guests in NYC Airbnb? (Perform Property Type Analysis)**
-***Question 4: What is the customer preference when choosing an Airbnb room in NYC? (Perform Room Type Analysis)**
-***Question 5: What are some characteristics among NYC’s Airbnb hosts? (Perform Host Analysis)**
+* Question 1: How are Airbnb listings distributed in NYC? (To provide a high-level view)
+* Question 2: How does neighborhood (location) impact Airbnb listings in NYC? (Perform Location Analysis)
+* Question 3: Which type of property is most preferred by guests in NYC Airbnb? (Perform Property Type Analysis)
+* Question 4: What is the customer preference when choosing an Airbnb room in NYC? (Perform Room Type Analysis)
+* Question 5: What are some characteristics among NYC’s Airbnb hosts? (Perform Host Analysis)**
 
 These questions above do not aim to be an extensive list of exploring and defining every pattern of the data, but more focused on the key aspects of competitive business insights.
 
