@@ -10,7 +10,7 @@ The high-level goal of this is to answer the client's main consultant brief:
 
 * Helping a competitor company of Airbnb to provide key competitive analysis and insights into Airbnb’s existing market in the New York City area - using the historical data provided.
 
-Main project output: [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf)
+Main project output: [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf)
 
 The main goal of the project will be translated into finding the answers to these five themed questions:
 
@@ -27,14 +27,13 @@ These questions above do not aim to be an extensive list of exploring and defini
 
 This dataset is a historical dataset provided from the public database Inside Airbnb initially contains 30,478 Airbnb listings in New York City. This raw data is provided to us and has been compiled from Inside Airbnb.
 
-Output: [airbnb_nyc.xlsx](data/airbnb_nyc.xlsx)
+Output: [airbnb_nyc.xlsx](Data/airbnb_nyc.xlsx)
 
 * Data Dictionary of dataset:
 
 This data dictionary provides an overview of the columns in the Airbnb New York City dataset, including their data types and brief descriptions.
 
-| Column Name                 | Data Type          | 
-| Description                                      |
+| Column Name                 | Data Type          |                             Description                                     |        
 |-----------------------------|--------------------|-----------------------------------------------------------------------------|
 | Host Id                     | Integer            | A unique numeric identifier for each host.                                  |
 | Host Since                  | Date               | The date when the host joined Airbnb, from 2008 to 2015.                    |
@@ -59,7 +58,7 @@ This step includes: treating missing values, and duplicates, detecting outliers 
 
 The EDA and data cleaning process is a combination of using Tableau and Excel. We'll export clean data under a new Excel file at the end of this step and prior to building the dashboards.
 
-Output:  “airbnb-nyc-clean”.xlsx
+Output: [airbnb-nyc-clean.xlsx](Data/airbnb-nyc-clean.xlsx)
 
 A summary of all the steps taken in this EDA & Data Cleaning stage:
 
@@ -74,13 +73,13 @@ Action taken: Drop 509 over 30,478 rows for those having >= 1 number of reviews 
 * Use pair plots to study the relationship between numeric variables. 
 Findings: There doesn’t seem to be a linear correlation between Beds, Price, Number of Reviews, Review Scores Rating. The relationships between the numerical variables somewhat resemble the log-linear trend line.
 We removed an extreme outlier from the pair plot (1 row).
-* Save the clean data results to a new Excel file named [airbnb-nyc-clean.xlxs](data/airbnb-nyc-clean.xlxs)
+* Save the clean data results to a new Excel file named [airbnb-nyc-clean.xlxs](Data/airbnb-nyc-clean.xlxs)
 
 The clean dataset now contains 29,816 rows after the EDA & data-cleaning process. 
 
 A detailed explanation of the process, with at least corresponding graphs, can be found in this output: 
 
-[TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf)
+[TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf)
 
 ### Part 3: Insights & Dashboard
 
