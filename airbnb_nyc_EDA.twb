@@ -30,7 +30,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='airbnb' name='excel-direct.10i03ez1i3jeos1ejzqej0svzhfu'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ntnt3/E - Learn/Lighthouse Labs DS/8. W06/Data Visualization with Tableau Project/Data-Visualization-and-Dashboards-with-Tableau/Data - Option 2/airbnb_nyc.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ntnt3/E - Learn/Lighthouse Labs DS/8. W06/Data Visualization with Tableau Project/Data-Visualization-and-Dashboards-with-Tableau/Data/airbnb_nyc.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.10i03ez1i3jeos1ejzqej0svzhfu' name='AirBnB_NYC' table='[AirBnB_NYC$]' type='table'>
