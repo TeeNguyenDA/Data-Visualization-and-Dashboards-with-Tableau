@@ -92,36 +92,36 @@ Output: [airbnb_nyc_dashboard.twb](airbnb_nyc_dashboard.twb)
 Key Findings: 
 The dataset comprises 29,816 Airbnb listings, with 55.86% being entire homes/apartments, 41.40% private rooms, and 2.75% shared rooms. Listings are found in Manhattan, Brooklyn, Queens, and Staten Island.
 
-![Q1 Dashboard 1](/Image/Q1 Dashboard 1.png)
+![Q1 Dashboard 1!](/Image/Q1 Dashboard 1.png)
 
 **Question 2: How does neighborhood (location) impact Airbnb listings in NYC?**
 
 Key Findings:
 Manhattan and Brooklyn, particularly the trendy Williamsburg neighborhood in Brooklyn and the Lower East Side in Manhattan (linked by a bridge), boast the highest density of Airbnb listings in NYC, offering proximity to attractions, activities, restaurants, and nightlife. Manhattan's Airbnb options are generally pricier than those in Brooklyn. Neighborhoods partially influence listing clusters and pricing, as Manhattan's limited space and high cost of living contribute to its expense.
 
-![Q2 Dashboard 1](/Image/Q2 Dashboard 1.png)
+![Q2 Dashboard 1!](/Image/Q2 Dashboard 1.png)
 
-![Q2 Dashboard 2](/Image/Q2 Dashboard 2.png)
+![Q2 Dashboard 2!](/Image/Q2 Dashboard 2.png)
 
 **Question 3: Which type of property is most preferred by guests in NYC Airbnb?**
 
 Key Findings:
 The top 5 preferred Airbnb property types in New York City are Apartment, House, Loft, Bed & Breakfast, and Condominium. Apartments dominate all neighborhoods, but Manhattan has fewer houses due to its high cost of living and proximity to major attractions. Manhattan's popularity for lofts suggests wealthy guests seeking convenience. In contrast, Brooklyn offers more affordable options.
 
-![Q3 Dashboard 1](/Image/Q3 Dashboard 1.png)
+![Q3 Dashboard 1!](/Image/Q3 Dashboard 1.png)
 
-![Q3 Dashboard 2](/Image/Q3 Dashboard 2.png)
+![Q3 Dashboard 2!](/Image/Q3 Dashboard 2.png)
 
-![Q3 Dashboard 3](/Image/Q3 Dashboard 3.png)
+![Q3 Dashboard 3!](/Image/Q3 Dashboard 3.png)
 
 **Question 4: What is the customer preference when choosing an Airbnb room in NYC?**
 
 Key Findings:
 Customers prefer either entire places or private rooms within the Apartment property type, depending on guest count and bed availability. Manhattan attracts those seeking more comfort and larger spaces at higher prices. Brooklyn visitors are split between entire places and private rooms, possibly due to family or solo traveler preferences. Staten Island, with fewer listings, stands out for high-priced entire places with 3-16 beds.
 
-![Q4 Dashboard 1](/Image/Q4 Dashboard 1.png)
+![Q4 Dashboard 1!](/Image/Q4 Dashboard 1.png)
 
-![Q4 Dashboard 2](/Image/Q4 Dashboard 2.png)
+![Q4 Dashboard 2!](/Image/Q4 Dashboard 2.png)
 
 **Question 5: What are some characteristics among NYC’s Airbnb hosts?**
 
@@ -130,11 +130,11 @@ On average, hosts in New York City have 1.24 listings, with some having up to 32
 
 The impact of the mentioned regulation on new hosts since 2015 is uncertain due to the unpredictable external environment. Historical data suggests potential recovery, assuming continued demand for vacation rentals in NYC. More data on short-term and long-term attributes would enhance forecasting.
 
-![Q5 Dashboard 1](/Image/Q5 Dashboard 1.png)
+![Q5 Dashboard 1!](/Image/Q5 Dashboard 1.png)
 
-![Q5 Dashboard 2](/Image/Q5 Dashboard 2.png)
+![Q5 Dashboard 2!](/Image/Q5 Dashboard 2.png)
 
-![Q5 Dashboard 3](/Image/Q5 Dashboard 3.png)
+![Q5 Dashboard 3!](/Image/Q5 Dashboard 3.png)
 
 ## Challenges 
 
