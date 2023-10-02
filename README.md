@@ -6,7 +6,7 @@ This Tableau Visualization and Dashboards project is based on the assumption tha
 
 ## Repository Structure:
 
-Repository Link: ![Data-Visualization-and-Dashboards-with-Tableau](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau)
+Repository Link: [Data-Visualization-and-Dashboards-with-Tableau](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau)
 * [Data](Data)
 * [Image](Image)
 * [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf)
