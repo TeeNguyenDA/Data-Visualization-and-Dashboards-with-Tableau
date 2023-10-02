@@ -10,15 +10,15 @@ The high-level goal of this is to answer the client's main consultant brief:
 
 * Helping a competitor company of Airbnb to provide key competitive analysis and insights into Airbnb’s existing market in the New York City area - using the historical data provided.
 
-Main project output: TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf
+Main project output: [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf)
 
 The main goal of the project will be translated into finding the answers to these five themed questions:
 
-* Question 1: How are Airbnb listings distributed in NYC? (To provide a high-level view)
-* Question 2: How does neighborhood (location) impact Airbnb listings in NYC? (Perform Location Analysis)
-* Question 3: Which type of property is most preferred by guests in NYC Airbnb? (Perform Property Type Analysis)
-* Question 4: What is the customer preference when choosing an Airbnb room in NYC? (Perform Room Type Analysis)
-* Question 5: What are some characteristics among NYC’s Airbnb hosts? (Perform Host Analysis)
+**Question 1: How are Airbnb listings distributed in NYC? (To provide a high-level view)**
+**Question 2: How does neighborhood (location) impact Airbnb listings in NYC? (Perform Location Analysis)**
+**Question 3: Which type of property is most preferred by guests in NYC Airbnb? (Perform Property Type Analysis)**
+**Question 4: What is the customer preference when choosing an Airbnb room in NYC? (Perform Room Type Analysis)**
+**Question 5: What are some characteristics among NYC’s Airbnb hosts? (Perform Host Analysis)**
 
 These questions above do not aim to be an extensive list of exploring and defining every pattern of the data, but more focused on the key aspects of competitive business insights.
 
@@ -27,7 +27,7 @@ These questions above do not aim to be an extensive list of exploring and defini
 
 This dataset is a historical dataset provided from the public database Inside Airbnb initially contains 30,478 Airbnb listings in New York City. This raw data is provided to us and has been compiled from Inside Airbnb.
 
-Output: Data -> The 'airbnb_nyc.xlsx' file
+Output: [airbnb_nyc.xlsx](data/airbnb_nyc.xlsx)
 
 * Data Dictionary of dataset:
 
@@ -55,7 +55,7 @@ Note that the timeline of the records inside is not indicated, as we have only c
 
 ### Part 2: EDA & Data Cleaning
 
-This step includes: treating missing values, and duplicates, detecting outliers and data mismatch, and exploring variable, relationships, and patterns; all by visualization techniques in Tableau.
+This step includes: treating missing values, and duplicates, detecting outliers and data mismatch, and exploring variables, relationships, and patterns; all by visualization techniques in Tableau.
 
 The EDA and data cleaning process is a combination of using Tableau and Excel. We'll export clean data under a new Excel file at the end of this step and prior to building the dashboards.
 
@@ -74,46 +74,45 @@ Action taken: Drop 509 over 30,478 rows for those having >= 1 number of reviews 
 * Use pair plots to study the relationship between numeric variables. 
 Findings: There doesn’t seem to be a linear correlation between Beds, Price, Number of Reviews, Review Scores Rating. The relationships between the numerical variables somewhat resemble the log-linear trend line.
 We removed an extreme outlier from the pair plot (1 row).
-* Save the clean data results to a new Excel file named “airbnb-nyc-clean.xlxs”.
+* Save the clean data results to a new Excel file named [airbnb-nyc-clean.xlxs](data/airbnb-nyc-clean.xlxs)
 
-The clean dataset now contains 29,816 rows after the EDA & data-cleaning process.
+The clean dataset now contains 29,816 rows after the EDA & data-cleaning process. 
 
 A detailed explanation of the process, with at least corresponding graphs, can be found in this output: 
 
-TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf
-
+[TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pptx.pdf)
 
 ### Part 3: Insights & Dashboard
 
 In this part, we investigate into several key questions about Airbnb listings in New York City with key findings about the data patterns and relevant dashboards.
 
-Output: airbnb_nyc_dashboard.twb
+Output: [airbnb_nyc_dashboard.twb](airbnb_nyc_dashboard.twb)
 
-* Question 1: How are Airbnb listings distributed in NYC?
+**Question 1: How are Airbnb listings distributed in NYC?**
 
 Key Findings: 
 
 The dataset comprises 29,816 Airbnb listings, with 55.86% being entire homes/apartments, 41.40% private rooms, and 2.75% shared rooms. Listings are found in Manhattan, Brooklyn, Queens, and Staten Island.
 
-* Question 2: How does neighborhood (location) impact Airbnb listings in NYC?
+**Question 2: How does neighborhood (location) impact Airbnb listings in NYC?**
 
 Key Findings:
 
 Manhattan and Brooklyn, particularly the trendy Williamsburg neighborhood in Brooklyn and the Lower East Side in Manhattan (linked by a bridge), boast the highest density of Airbnb listings in NYC, offering proximity to attractions, activities, restaurants, and nightlife. Manhattan's Airbnb options are generally pricier than those in Brooklyn. Neighborhoods partially influence listing clusters and pricing, as Manhattan's limited space and high cost of living contribute to its expense.
 
-* Question 3: Which type of property is most preferred by guests in NYC Airbnb?
+**Question 3: Which type of property is most preferred by guests in NYC Airbnb?**
 
 Key Findings:
 
 The top 5 preferred Airbnb property types in New York City are Apartment, House, Loft, Bed & Breakfast, and Condominium. Apartments dominate all neighborhoods, but Manhattan has fewer houses due to its high cost of living and proximity to major attractions. Manhattan's popularity for lofts suggests wealthy guests seeking convenience. In contrast, Brooklyn offers more affordable options.
 
-* Question 4: What is the customer preference when choosing an Airbnb room in NYC?
+**Question 4: What is the customer preference when choosing an Airbnb room in NYC?**
 
 Key Findings:
 
 Customers prefer either entire places or private rooms within the Apartment property type, depending on guest count and bed availability. Manhattan attracts those seeking more comfort and larger spaces at higher prices. Brooklyn visitors are split between entire places and private rooms, possibly due to family or solo traveler preferences. Staten Island, with fewer listings, stands out for high-priced entire places with 3-16 beds.
 
-* Question 5: What are some characteristics among NYC’s Airbnb hosts?
+**Question 5: What are some characteristics among NYC’s Airbnb hosts?**
 
 Key Findings:
 
