@@ -103,7 +103,7 @@ Output: [airbnb_nyc_dashboard.twb](airbnb_nyc_dashboard.twb)
 Key Findings: 
 The dataset comprises 29,816 Airbnb listings, with 55.86% being entire homes/apartments, 41.40% private rooms, and 2.75% shared rooms. Listings are found in Manhattan, Brooklyn, Queens, and Staten Island.
 
-![Q1 Dashboard 1](Image/Q1 Dashboard 1.png)
+![Q1 Dashboard 1](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau/blob/main/Image/Q1%20Dashboard%201.png)
 
 ***Question 2: How does neighborhood (location) impact Airbnb listings in NYC?**
 
