@@ -7,8 +7,8 @@ This Tableau Visualization and Dashboards project is based on the assumption tha
 ## Repository Structure:
 
 Repository Link: [Data-Visualization-and-Dashboards-with-Tableau](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau)
-* [Data](Data)
-* [Image](Image)
+* [Data folder](Data) (folder)
+* [Image](Image) (folder)
 * [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf)
 * [airbnb_nyc_EDA.twb](airbnb_nyc_EDA.twb)
 * [airbnb_nyc_dashboard.twb](airbnb_nyc_dashboard.twb)
@@ -110,9 +110,7 @@ The dataset comprises 29,816 Airbnb listings, with 55.86% being entire homes/apa
 Key Findings:
 Manhattan and Brooklyn, particularly the trendy Williamsburg neighborhood in Brooklyn and the Lower East Side in Manhattan (linked by a bridge), boast the highest density of Airbnb listings in NYC, offering proximity to attractions, activities, restaurants, and nightlife. Manhattan's Airbnb options are generally pricier than those in Brooklyn. Neighborhoods partially influence listing clusters and pricing, as Manhattan's limited space and high cost of living contribute to its expense.
 
-![Q2 Dashboard 1](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau/blob/main/Image/Q1%20Dashboard%201.png)
-
-![Q2 Dashboard 2](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau/blob/main/Image/Q2%20Dashboard%201.png)
+![Q2 Dashboard 1](https://github.com/TeeNguyenDA/Data-Visualization-and-Dashboards-with-Tableau/blob/main/Image/Q2%20Dashboard%201.png)
 
 ***Question 3: Which type of property is most preferred by guests in NYC Airbnb?**
 
