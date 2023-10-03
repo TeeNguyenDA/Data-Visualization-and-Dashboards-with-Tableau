@@ -57,8 +57,8 @@ This data dictionary provides an overview of the columns in the Airbnb New York 
 | Beds                        | Integer            | The number of beds available in the property.                               |
 | Number of Records           | Integer            | The number of records associated with each listing.                         |
 | Number Of Reviews           | Integer            | The total number of reviews that this property has received.                |
-| Price                       | Number (Whole)     | The price of the property for a given stay.                                 |
-| Review Scores Rating        | Number (Whole)     | The numeric rating score given to the property, likely on a scale over 100. |
+| Price                       | Integer            | The price of the property for a given stay.                                 |
+| Review Scores Rating        | Integer            | The numeric rating score given to the property, likely on a scale over 100. |
 
 Note that the timeline of the records inside is not indicated, as we have only column 'Host Since' indicating the time range of 2008 - 2015. However, this is accurate to treat this date variable as the actual date of the listing.
 
@@ -88,7 +88,7 @@ We removed an extreme outlier from the pair plot (1 row).
 
 The clean dataset now contains 29,816 rows after the EDA & data-cleaning process. 
 
-A detailed explanation of the process, with at least corresponding graphs, can be found in this output: 
+A detailed explanation of the process, with some corresponding graphs, can be found in this output: 
 
 [TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf](TableauPresentationFileOption2NumberIIIDatasetAirbnbThanhNguyen.pdf)
 
@@ -135,7 +135,7 @@ Customers prefer either entire places or private rooms within the Apartment prop
 ***Question 5: What are some characteristics among NYC’s Airbnb hosts?**
 
 Key Findings:
-On average, hosts in New York City have 1.24 listings, with some having up to 32. Most hosts prefer renting entire places in Manhattan. Since 2015, there's been a decline in new hosts, mainly in Manhattan and Brooklyn. In 2015, a law restricted full-apartment Airbnb rentals to 30+ days, despite over 50% of listings offering shorter stays.
+On average, hosts in New York City have 1.24 listings, with some having up to 32. Most hosts prefer renting entire places in Manhattan. Since 2015, there's been a decline in new hosts, mainly in Manhattan and Brooklyn. In 2015, a law restricted full-apartment Airbnb rentals to 30+ days, despite over 50% of listings offering to book an entire apartment for shorter stays.
 
 The impact of the mentioned regulation on new hosts since 2015 is uncertain due to the unpredictable external environment. Historical data suggests potential recovery, assuming continued demand for vacation rentals in NYC. More data on short-term and long-term attributes would enhance forecasting.
 
